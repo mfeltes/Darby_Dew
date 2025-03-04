@@ -10,20 +10,21 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
-      primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
-      secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      title: Dewey's Leash
+      text: |
+        At [Company Name], my passion for animals drives every aspect of my pet care service. I understand that pets are not just animals; they are cherished members of your family who deserve exceptional care and attention. With my unwavering commitment to their well-being, I provide personalized services that cater to the unique needs of each pet. From daily walks to delicious meal preparations and engaging playtime, I ensure that your furry friends receive the love and diligence they deserve while you’re away. You can trust that your pets will be treated with the same warmth and respect as I would give to my own, allowing you to have peace of mind knowing they are in capable hands. For more information, feel free to reach out at [phone number].
+      # primary_action:
+      #   text: Get Started
+      #   url: https://hugoblox.com/templates/
+      #   icon: rocket-launch
+      # secondary_action:
+      #   text: Read the docs
+      #   url: https://docs.hugoblox.com
+      # announcement:
+      #   text: "Announcing the release of version 1."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -34,109 +35,127 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: dog-walking.png
           filters:
             brightness: 0.5
-  - block: stats
-    content:
-      items:
-        - statistic: "1M+"
-          description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
-          description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
+  # - block: stats
+  #   content:
+  #     items:
+  #       - statistic: "1M+"
+  #         description: |
+  #           Websites built  
+  #           with Hugo Blox
+  #       - statistic: "10k+"
+  #         description: |
+  #           GitHub stars  
+  #           since 2016
+  #       - statistic: "3k+"
+  #         description: |
+  #           Discord community  
+  #           for support
+  #   design:
+  #     # Section background color (CSS class)
+  #     css_class: "bg-gray-100 dark:bg-gray-900"
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: features
+    id: services
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Services
+      text: Here are my services and why they are awesome
       items:
-        - name: Optimized SEO
+        - name: Walking Tier
           icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
+          description: |
+            I walk
+            <br>
+            $125
+        - name: Running Tier
           icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
+          description: |
+            I run
+            <br>
+            $150
+        - name: Snuggle Tier
           icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
+          description: |
+            I snuggle
+            <br>
+            Free!
+        - name: Foxing
           icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
+          description: |
+            The quick brown fox jumps over the lazy dog
+            <br>
+            $200
+        - name: Tricks
           icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
+          description: |
+            The tricks I'll teach!
+            <br>
+            $250
+        - name: Everything Bagel
           icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
-          feature_icon: check
-          features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
-          button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
-          feature_icon: bolt
-          features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
-          button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+          description: |
+            All the above!
+            <br>
+            $300
+  # - block: cta-image-paragraph
+  #   id: solutions
+  #   content:
+  #     items:
+  #       - title: Build your future-proof website
+  #         text: As easy as 1, 2, 3!
+  #         feature_icon: check
+  #         features:
+  #           - "Future-proof - edit your content in text files"
+  #           - "Website is generated by a single app, Hugo"
+  #           - "No JavaScript knowledge required"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: build-website.png
+  #         button:
+  #           text: Get Started
+  #           url: https://hugoblox.com/templates/
+  #       - title: Large Community
+  #         text: Join our large community on Discord - ask questions and get live responses
+  #         feature_icon: bolt
+  #         features:
+  #           - "Dedicated support channel"
+  #           - "3,000+ users on Discord"
+  #           - "Share your site and get feedback"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: coffee.jpg
+  #         button:
+  #           text: Join Discord
+  #           url: https://discord.gg/z8wNYzb
+  #   design:
+  #     # Section background color (CSS class)
+  #     css_class: "bg-gray-100 dark:bg-gray-900"
+  # - block: testimonials
+  #   content:
+  #     title: ""
+  #     text: ""
+  #     items:
+  #       - name: "Hugo Smith"
+  #         role: "Marketing Executive at X"
+  #         # Upload image to `assets/media/` and reference the filename here
+  #         image: "testimonial-1.jpg"
+  #         text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+  #   design:
+  #     spacing:
+  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
+  #       padding: ["6rem", 0, 0, 0]
+  # - block: cta-card
+  #   content:
+  #     title: Build your future-proof website
+  #     text: As easy as 1, 2, 3!
+  #     button:
+  #       text: Get Started
+  #       url: https://hugoblox.com/templates/
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
